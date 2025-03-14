@@ -1,6 +1,6 @@
 # ATCP
 The trick of this protocol is that its connection address has a path (atcp://example.com[:1614]/[...]) there are also several types of packages:
-1. The PING server/client responds with PONG if the connection can be continued or CLOSE if it needs to be closed. It is sent every 10 seconds.
+1. `PING` server/client responds with PONG if the connection can be continued or CLOSE if it needs to be closed. It is sent every 10 seconds.
 2. `PONG` - I've already told you.
 3. `CLOSE` - also.
 4. `MESSAGE <message>` - the message itself.
