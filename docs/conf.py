@@ -1,6 +1,10 @@
 import os
 import sys
 
+from pathlib import Path
+
+sys.path.insert(0, str(Path('..').resolve()))
+
 # Основные настройки
 project = 'ATCP'
 copyright = '2025, Arigadam'
