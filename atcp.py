@@ -64,7 +64,7 @@ class ATCP:
         """
         System
         """
-        self.socket.sendall(packet.encode() + b'\n')
+        self.socket.sendto(packet.encode() + b'\n', (self.host, self.port))
 
     def recv_packet(self):
         """
