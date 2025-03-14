@@ -4,7 +4,7 @@ import sys
 # Основные настройки
 project = 'ATCP'
 copyright = '2025, Arigadam'
-author = 'Ваши имя'
+author = 'Arigadam'
 
 # Версия проекта
 release = '1.0.0'
