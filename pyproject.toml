@@ -14,6 +14,9 @@ classifiers = [
 ]
 license = {file = "LICENSE"}
 
+[tool.setuptools]
+license-files = []
+
 [project.urls]
 Homepage = "https://github.com/wer310/atcp"
 Issues = "https://github.com/wer310/atcp/issues"
