@@ -83,5 +83,5 @@ html_context = {
 }
 
 extensions = [
-    'sphinx.ext.napoleon',
+    'sphinx.ext.autodoc',
 ]
