@@ -81,3 +81,7 @@ html_context = {
     'github_repo': 'atcp',
     'github_version': 'aster',
 }
+
+extensions = [
+    'sphinx.ext.napoleon',
+]
