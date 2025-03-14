@@ -35,6 +35,11 @@ To get started with ATCP, please follow these steps:
 .. note::
    For more information on installation, usage, and configuration, please see the corresponding sections in the documentation.
 
+Documention
+------------
+.. automodule:: atcp
+   :members:
+
 Contributing
 ------------
 
