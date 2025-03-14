@@ -33,7 +33,7 @@ exclude_patterns = ['_build', '__pycache__']
 master_doc = 'index'
 
 # Шаблон для главной страницы
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'classic'
 
 # Параметры шаблона
 html_theme_options = {
